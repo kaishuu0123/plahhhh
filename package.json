@@ -9,6 +9,9 @@
     "build:production": "node_modules/.bin/webpack -p",
     "heroku-postbuild": "yarn build:production"
   },
+  "engines": {
+      "node": "8.x"
+  },
   "dependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
